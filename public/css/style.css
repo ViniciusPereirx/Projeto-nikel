@@ -8,6 +8,24 @@ body {
   background: linear-gradient(120deg, #4c79d3 44.9%, #fff 45%) no-repeat fixed;
 }
 
+#home {
+  background: linear-gradient(120deg, #fff 45%, #4c79d3 45%) no-repeat fixed;
+}
+
+.color-primary {
+  color: #4e0070;
+}
+
+.color-secondary {
+  color: #4c79d3;
+}
+
+header {
+  border-bottom: 1px solid #bebcbc;
+  padding: 5px;
+  background-color: #fff;
+}
+
 .text-login {
   color: #fff;
   font-size: 1.1rem;
@@ -17,6 +35,11 @@ body {
 .coins {
   position: absolute;
   bottom: 100px;
+}
+.icon-datail {
+  font-size: 3rem;
+  margin-right: 0.8rem;
+  vertical-align: middle;
 }
 
 .btn-login {
@@ -41,5 +64,3 @@ body {
 .link-default:hover {
   color: #4c79d3;
 }
-
-
