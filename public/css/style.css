@@ -51,8 +51,15 @@ header {
   font-weight: 500;
 }
 
-.btn-login:hover {
+.btn-login:hover,
+.btn-default:hover {
   background: #4c79d3;
+  color: #fff;
+}
+
+.btn-default {
+  border-radius: 0.8rem;
+  background-color: #4e0070;
   color: #fff;
 }
 
@@ -63,4 +70,10 @@ header {
 
 .link-default:hover {
   color: #4c79d3;
+}
+
+.info {
+  background-color: #fff;
+  border-radius: 1.1rem 1.1rem 0 0;
+  padding: 1.1rem 0 0 0;
 }
