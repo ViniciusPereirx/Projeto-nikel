@@ -57,13 +57,13 @@
                 <div class="col">
                   <form>
                     <div class="mb-3">
-                      <label for="email-create-input" class="form-label"
+                      <label for="#email-create-input" class="form-label"
                         >E-mail</label
                       >
                       <input
                         type="email"
                         class="form-control"
-                        id="email-create-input"
+                        id="#email-create-input"
                         aria-describedby="emailHelp"
                       />
                       <div id="emailHelp" class="form-text">
@@ -71,13 +71,13 @@
                       </div>
                     </div>
                     <div class="mb-3">
-                      <label for="password-create-input" class="form-label"
+                      <label for="#password-create-input" class="form-label"
                         >Senha</label
                       >
                       <input
                         type="password"
                         class="form-control"
-                        id="password-create-input"
+                        id="#password-create-input"
                       />
                     </div>
                     <div class="mb-3 form-check">
@@ -99,6 +99,7 @@
               <div class="row">
                 <div class="col">
                   <p
+                    id="link-conta"
                     class="text-center mt-2 form-text"
                     data-bs-toggle="modal"
                     data-bs-target="#register-modal"
@@ -159,6 +160,7 @@
                     class="form-control"
                     id="email-create-input"
                     aria-describedby="emailHelp"
+                    required
                   />
                   <div id="emailHelp" class="form-text">
                     Utilize seu e-mail para criar a conta.
@@ -172,6 +174,7 @@
                     type="password"
                     class="form-control"
                     id="password-create-input"
+                    required
                   />
                   <div id="emailHelp" class="form-text">
                     Utilize uma senha fácil de lembrar e anote para não
@@ -201,5 +204,6 @@
       integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz"
       crossorigin="anonymous"
     ></script>
+    <script src="../js/index.js"></script>
   </body>
 </html>
