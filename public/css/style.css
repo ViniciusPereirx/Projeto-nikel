@@ -97,3 +97,11 @@ header {
   border-radius: 1.1rem 1.1rem 0 0;
   padding: 1.1rem 0 0 0;
 }
+
+.logout {
+  min-width: 3rem !important;
+}
+
+.menu {
+  margin-right: 0.8rem;
+}
